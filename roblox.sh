@@ -5,7 +5,7 @@
 # ==========================================
 
 # --- CONFIG REMOTE (Ganti link di bawah dengan link RAW status.txt lu) ---
-URL_CONTROL="https://raw.githubusercontent.com/fizxystore-boop/termux-control/main/status.txt"
+URL_CONTROL="https://raw.githubusercontent.com/fizxystore-boop/status.txt/main/status.txt"
 
 # Fungsi Cek Status dari GitHub
 check_status() {
