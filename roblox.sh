@@ -37,7 +37,7 @@ if [ -z "$USER_LINK" ]; then
 fi
 
 LINK="$USER_LINK"
-APPS=$(pm list packages | grep "com.roblox.fizx" | cut -d ":" -f2)
+APPS=$(pm list packages | grep "com.roblox" | cut -d ":" -f2)
 TIMER=$(date +%s)
 
 set_screen() {
