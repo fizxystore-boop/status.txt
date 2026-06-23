@@ -94,7 +94,7 @@ run_setup() {
 
 # Cek apakah package ditemukan
 if [ -z "$APPS" ]; then
-    echo "[!] No Roblox packages found (com.roblox.fizx*)"
+    echo "[!] No Roblox packages found (com.roblox*)"
     exit
 fi
 
